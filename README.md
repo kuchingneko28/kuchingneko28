@@ -1,12 +1,127 @@
-<h1 align="center">Hi 👋, My name is Kuching Neko</h1>
-<h3 align="center">I'm Web development</h3>
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/kuchingneko" target="blank"><img align="center" src="https://www.flaticon.com/svg/vstatic/svg/733/733579.svg" alt="kuchingneko" height="30" width="40" /></a>
-<a href="https://fb.com/kuchingneko19" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/facebook.svg" alt="kuchingneko19" height="30" width="40" /></a>
-<a href="https://instagram.com/kuching_neko1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/instagram.svg" alt="kuching_neko1" height="30" width="40" /></a>
-<a href="https://discord.gg/kuchingneko#4300" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/discord.svg" alt="kuchingneko#4300" height="30" width="40" /></a>
+<h1 align="center">Welcome to <%= projectName %> 👋</h1>
+<p>
+<% if (isProjectOnNpm) { -%>
+  <a href="https://www.npmjs.com/package/<%= projectName %>" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/<%= projectName %>.svg">
+  </a>
+<% } -%>
+<% if (projectVersion && !isProjectOnNpm) { -%>
+  <img alt="Version" src="https://img.shields.io/badge/version-<%= projectVersion %>-blue.svg?cacheSeconds=2592000" />
+<% } -%>
+<% if (projectPrerequisites) { -%>
+<% projectPrerequisites.map(({ name, value }) => { -%>
+  <img src="https://img.shields.io/badge/<%= name %>-<%= encodeURIComponent(value) %>-blue.svg" />
+<% }) -%>
+<% } -%>
+<% if (projectDocumentationUrl) { -%>
+  <a href="<%= projectDocumentationUrl %>" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+<% } -%>
+<% if (isGithubRepos) { -%>
+  <a href="<%= repositoryUrl %>/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+<% } -%>
+<% if (licenseName) { -%>
+  <a href="<%= licenseUrl ? licenseUrl : '#' %>" target="_blank">
+    <img alt="License: <%= licenseName %>" src="https://img.shields.io/<%= isGithubRepos ? `github/license/${authorGithubUsername}/${projectName}` : `badge/License-${licenseName}-yellow.svg` %>" />
+  </a>
+<% } -%>
+<% if (authorTwitterUsername) { -%>
+  <a href="https://twitter.com/<%= authorTwitterUsername %>" target="_blank">
+    <img alt="Twitter: <%= authorTwitterUsername %>" src="https://img.shields.io/twitter/follow/<%= authorTwitterUsername %>.svg?style=social" />
+  </a>
+<% } -%>
 </p>
+<% if (projectDescription) { -%>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cs/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> </p>
+> <%= projectDescription %>
+<% } -%>
+<% if (projectHomepage) { -%>
+
+### 🏠 [Homepage](<%= projectHomepage %>)
+<% } -%>
+<% if (projectDemoUrl) { -%>
+
+### ✨ [Demo](<%= projectDemoUrl %>)
+<% } -%>
+<% if (projectPrerequisites && projectPrerequisites.length) { -%>
+
+## Prerequisites
+
+<% projectPrerequisites.map(({ name, value }) => { -%>
+- <%= name %> <%= value %>
+<% }) -%>
+<% } -%>
+<% if (installCommand) { -%>
+
+## Install
+
+```sh
+<%= installCommand %>
+```
+<% } -%>
+<% if (usage) { -%>
+
+## Usage
+
+```sh
+<%= usage %>
+```
+<% } -%>
+<% if (testCommand) { -%>
+
+## Run tests
+
+```sh
+<%= testCommand %>
+```
+<% } -%>
+<% if (authorName || authorTwitterUsername || authorGithubUsername) { -%>
+
+## Author
+<% if (authorName) { %>
+👤 **<%= authorName %>**
+<% } %>
+<% if (authorWebsite) { -%>
+* Website: <%= authorWebsite %>
+<% } -%>
+<% if (authorTwitterUsername) { -%>
+* Twitter: [@<%= authorTwitterUsername %>](https://twitter.com/<%= authorTwitterUsername %>)
+<% } -%>
+<% if (authorGithubUsername) { -%>
+* Github: [@<%= authorGithubUsername %>](https://github.com/<%= authorGithubUsername %>)
+<% } -%>
+<% if (authorLinkedInUsername) { -%>
+* LinkedIn: [@<%= authorLinkedInUsername %>](https://linkedin.com/in/<%= authorLinkedInUsername %>)
+<% } -%>
+<% } -%>
+<% if (issuesUrl) { -%>
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](<%= issuesUrl %>). <%= contributingUrl ? `You can also take a look at the [contributing guide](${contributingUrl}).` : '' %>
+<% } -%>
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+<% if (authorPatreonUsername) { -%>
+
+<a href="https://www.patreon.com/<%= authorPatreonUsername %>">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+<% } -%>
+<% if (licenseName && licenseUrl) { -%>
+
+## 📝 License
+
+<% if (authorName && authorGithubUsername) { -%>
+Copyright © <%= currentYear %> [<%= authorName %>](https://github.com/<%= authorGithubUsername %>).<br />
+<% } -%>
+This project is [<%= licenseName %>](<%= licenseUrl %>) licensed.
+<% } -%>
+
+***
+<%- include('footer.md'); -%>
