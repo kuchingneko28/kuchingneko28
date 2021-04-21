@@ -8,8 +8,9 @@
   <img align="left" alt="Facebook" height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/facebook.png" />
 </a>
 <br />
+<br />
 
-<p>Languages:</p>
+<p><strong>Languages:</strong></p>
 
 <code><img height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/c-sharp.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/html.png"></code>
