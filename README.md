@@ -17,7 +17,7 @@ I'm Kuching Neko 😺
 
 <p><strong>Languages & framework:</strong></p>
 
-<code><img height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/c-sharp.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/html.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/js.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/net.png"></code>
+<code><img height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/c-sharp.png"></code>
+<code><img height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/html.png"></code>
+<code><img height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/js.png"></code>
+<code><img height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/net.png"></code>
