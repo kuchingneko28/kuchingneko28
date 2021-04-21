@@ -7,7 +7,7 @@ I'm Kuching Neko 😺
 <p><strong>My social media:</strong></p>
 
 <a href="">
-  <img align="left" alt="Facebook" height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/facebook.png" />
+  <img align="left" alt="Facebook" height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/facebook.png" />
 </a>
 
 
