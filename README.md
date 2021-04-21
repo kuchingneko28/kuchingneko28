@@ -15,7 +15,7 @@ I'm Kuching Neko 😺
 <br />
 <br />
 
-<p><strong>Languages & Framework:</strong></p>
+<p><strong>Languages & framework:</strong></p>
 
 <code><img height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/c-sharp.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/html.png"></code>
