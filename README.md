@@ -1,5 +1,5 @@
 ### Hi there, Welcome to my profile 👋
-<strong>My name is </strong>:  Kuching Neko 😺
+<p><strong>My name is </strong>:  Kuching Neko 😺</p>
 <br />
 
 <p><strong>My social media</strong> : </p>
