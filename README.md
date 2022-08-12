@@ -1,24 +1,12 @@
-### Hi there, Welcome to my profile 👋
-<p><strong>My name is </strong>:  Kuching Neko 😺</p>
 
-<p><strong>My social media</strong> : </p>
+## Hi there, Welcome to my profile 👋
 
-<a href="https://www.facebook.com/kuchingneko19/">
-  <img align="left" alt="Facebook" height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/facebook.png" />
-</a>
+My name is KuchingNeko 😺, i'm a Front-End Web Developer.
 
-<a href="https://www.instagram.com/kuching_neko1/">
-  <img align="left" alt="Instagram" height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/instagram.png" />
-</a>
+### 💻 Language
++ HTML
++ CSS
++ Javascript ( Currently Learning )
 
-
-<br />
-<br />
-
-<p><strong>Languages</strong> : </p>
-<code><img height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/c-sharp.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/php.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/kuchingneko28/kuchingneko28/main/assets/js.png"></code>
-
-
-
+### Contact me 
+✉️ Email : kuchingneko28@gmail.com
