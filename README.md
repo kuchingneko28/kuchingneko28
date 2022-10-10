@@ -7,6 +7,3 @@ My name is KuchingNeko 😺, i'm a Front-End Web Developer.
 + HTML
 + CSS
 + Javascript ( Currently Learning )
-
-### Contact me 
-✉️ Email : kuchingneko28@gmail.com
