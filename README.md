@@ -1,9 +1,6 @@
 
 ## Hi there, Welcome to my profile 👋
 
-My name is KuchingNeko 😺, i'm a Front-End Web Developer.
+My name is KuchingNeko 😺, i'm a Web Developer
 
-### 💻 Language
-+ HTML
-+ CSS
-+ Javascript ( Currently Learning )
+![](https://github.com/kuchingneko28/kuchingneko28/blob/main/puss.gif)
