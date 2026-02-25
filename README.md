@@ -1,13 +1,16 @@
-# KuchingNeko
+# Hi there 👋
 
-> *I like cat.*
+> I'm KuchingNeko
 
-![](https://github.com/kuchingneko28/kuchingneko28/blob/main/puss.gif?raw=true)
+<p align="left">
+  <img src="https://github.com/kuchingneko28/kuchingneko28/blob/main/puss.gif?raw=true" width="500" />
+</p>
 
-Interested in how software works under the hood. I like building structured applications and exploring security concepts.
+Interested in software internals, security, and structured application design.
 
-Most of my time is spent writing JavaScript and analyzing how things are built.
+Mostly writing JavaScript.
 
 ---
 
-**Contact:** [kuchingneko28@gmail.com](mailto:kuchingneko28@gmail.com)
+**Contact**  
+kuchingneko28@gmail.com
